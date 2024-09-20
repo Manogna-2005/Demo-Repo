@@ -4,8 +4,8 @@ def subtract(a,b):
 import unittest
 class subtractclass(unittest.TestCase):
     def test1(self):
-        result = subtract(10,7)
-        self.assertEqual(result, 3)
+        result = subtract(10,6)
+        self.assertEqual(result, 4)
     def test2(self):
         result = subtract(-10,-7)
         self.assertEqual(result, -3)
